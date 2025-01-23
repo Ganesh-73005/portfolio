@@ -151,6 +151,7 @@
   .VbfeYq_container {
     flex-direction: column;
     gap: 23px;
+    padding: 30px 5%;
   }
 
   .VbfeYq_text {
@@ -159,8 +160,56 @@
     display: flex;
   }
 
+  .VbfeYq_text h2 {
+    letter-spacing: 3px;
+    font-size: 60px;
+  }
+
+  .VbfeYq_text p {
+    letter-spacing: 1.5px;
+    font-size: 30px;
+  }
+
   .VbfeYq_links {
     align-items: center;
+  }
+
+  .VbfeYq_link a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (width <= 600px) {
+  .VbfeYq_text h2 {
+    letter-spacing: 2px;
+    font-size: 50px;
+  }
+
+  .VbfeYq_text p {
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+
+  .VbfeYq_link a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (width <= 400px) {
+  .VbfeYq_container {
+    padding: 20px 2%;
+  }
+
+  .VbfeYq_text h2 {
+    font-size: 40px;
+  }
+
+  .VbfeYq_text p {
+    font-size: 20px;
+  }
+
+  .VbfeYq_link a {
+    font-size: 18px;
   }
 }
 
