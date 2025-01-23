@@ -1,0 +1,24 @@
+[
+  {
+    "role": "Project Lead - Make Change App",
+    "organisation": "Thozan Organization",
+    "startDate": "Present",
+    "endDate": "Present",
+    "experiences": [
+      "Developed database for NGOs to track homeless individuals",
+      "Designed app for public submission of homeless location data"
+    ],
+    "imageSrc": "https://github.com/Ganesh-73005/my-portfolio-site/blob/main/assets/history/thozan.jpeg"
+  },
+  {
+    "role": "Head of Design",
+    "organisation": "Youth Red Cross, Anna University",
+    "startDate": "Nov 2022",
+    "endDate": "Present",
+    "experiences": [
+      "Designed posters, logos, and certificates",
+      "Orchestrated 2+ camps and 10+ awareness programs"
+    ],
+    "imageSrc": "https://github.com/Ganesh-73005/my-portfolio-site/blob/main/assets/history/yrc.png"
+  }
+]
