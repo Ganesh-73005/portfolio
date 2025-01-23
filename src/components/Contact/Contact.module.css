@@ -50,6 +50,7 @@
   .container {
     flex-direction: column;
     gap: 23px;
+    padding: 30px 5%;
   }
 
   .text {
@@ -58,7 +59,55 @@
     align-items: center;
   }
 
+  .text h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+  }
+
+  .text p {
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+
   .links {
     align-items: center;
+  }
+
+  .link a {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text h2 {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 25px;
+    letter-spacing: 1px;
+  }
+
+  .link a {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 20px 2%;
+  }
+
+  .text h2 {
+    font-size: 40px;
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .link a {
+    font-size: 18px;
   }
 }
